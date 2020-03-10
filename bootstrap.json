@@ -1,0 +1,24 @@
+{
+	"project" : {
+		"description" : "json for bootstrapping repos in azure devops",
+		"orgPath" : "https://dev.azure.com/",
+		"repos" : [
+			{
+				"name" : "PlatformServices",
+				"bootstrapUrl" : "https://github.com/chrisxpr/PlatformServicesTemplate",
+				"branch": "master"
+			},
+			{
+				"name" : "AppLayer",
+				"bootstrapUrl" : "https://github.com/chrisxpr/AppLayerTemplate",
+				"branch": "master"
+			},
+			{
+				"name" : "BuildDefinition",
+				"bootstrapUrl" : "https://github.com/chrisxpr/BuildDefinitionTemplate",
+				"branch": "master"
+			}
+		]
+	}
+}
+
